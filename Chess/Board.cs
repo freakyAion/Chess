@@ -8,6 +8,11 @@ namespace Chess
 {
     class Board
     {
+        public Board()
+        {
+            pieces = new List<Piece>();
+        }
+
         private char[,] board = new char[8, 8];
 
         public char[,] ChessBoard
