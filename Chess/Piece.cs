@@ -23,8 +23,8 @@ namespace Chess
             set { y = value; }
         }
 
-        private int[,] attack = new int[16, 16];
-        private int[,] move = new int[16, 16];
+        private int[,] attack = new int[17, 17];
+        private int[,] move = new int[17, 17];
 
         public int[,] AttackRange
         {
